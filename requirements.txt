@@ -1,0 +1,19 @@
+usage: openai [-h] [-v] [-b API_BASE] [-k API_KEY] [-o ORGANIZATION]
+              {api,tools,wandb} ...
+
+positional arguments:
+  {api,tools,wandb}
+    api                 Direct API calls
+    tools               Client side tools for convenience
+    wandb               Logging with Weights & Biases
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose         Set verbosity.
+  -b API_BASE, --api-base API_BASE
+                        What API base url to use.
+  -k API_KEY, --api-key API_KEY
+                        What API key to use.
+  -o ORGANIZATION, --organization ORGANIZATION
+                        Which organization to run as (will use your default
+                        organization if not specified)
