@@ -1,9 +1,4 @@
-import os
 import openai
-from tqdm import tqdm
-from pprint import pprint
-import requests
-import json
 import streamlit as st
 
 openai_engine = "text-davinci-003"
