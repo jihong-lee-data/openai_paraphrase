@@ -32,7 +32,7 @@ def get_new_texts(text, openai, params) -> list:
 
 def main():
     openai.api_key= st.secrets["api_key"]
-    st.header('OpenAI 한국어 paraphrase 페이지')
+    st.header('OpenAI Paraphrase Tool')
     
     with st.expander('모델 파라미터', expanded=True):
     
